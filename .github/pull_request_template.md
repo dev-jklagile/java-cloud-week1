@@ -4,7 +4,7 @@
 ## Why?
 - 
 
-## How to test
+## How to test .
 - [ ] Run the app
 - [ ] Confirm output looks correct
 
