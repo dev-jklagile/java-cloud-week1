@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Week 1 started 🚀");
-        System.out.println("hello from my first feature branch");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("What’s your name? ");
+        String name = scanner.nextLine();
+
+        System.out.println("Nice to meet you, " + name + "!");
+        scanner.close();
     }
 }
